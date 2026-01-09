@@ -1,4 +1,37 @@
-# NBA salaries predictor
+# NBA Salaries Predictor
+
+## 项目简介 (Project Overview)
+
+### 中文介绍
+NBA薪资预测器是一个基于机器学习的数据分析项目，旨在通过分析NBA球员的职业生涯统计数据来预测他们的薪资水平。该项目使用1985年至2018年的历史薪资数据和球员表现数据，探索球员统计数据（如场均得分、助攻、三分球命中率等）与薪资之间的关系，并建立预测模型。
+
+**主要功能：**
+- **数据可视化分析**：生成球员统计数据与薪资关系的交互式图表
+- **薪资预测**：基于球员的场均助攻、得分和三分球命中率预测薪资
+- **模型评估**：使用R²值和相对误差评估预测模型的准确性
+- **薪资帽分析**：考虑NBA薪资帽对球员薪资的影响
+
+**技术栈：**
+- Python (pandas, scikit-learn, altair, plotly)
+- 线性回归模型
+- 数据爬取与清洗
+
+### English Introduction
+NBA Salaries Predictor is a machine learning-based data analysis project designed to predict NBA player salaries based on their career statistics. Using historical salary data from 1985 to 2018 and player performance metrics, this project explores the relationship between player statistics (such as points per game, assists, three-point field goal percentage) and salaries, and builds predictive models.
+
+**Key Features:**
+- **Data Visualization**: Generate interactive charts showing relationships between player statistics and salaries
+- **Salary Prediction**: Predict salaries based on player's assists per game, points per game, and 3-point field goal percentage
+- **Model Evaluation**: Assess prediction accuracy using R-squared values and relative error metrics
+- **Salary Cap Analysis**: Consider the impact of NBA salary cap on player compensation
+
+**Technology Stack:**
+- Python (pandas, scikit-learn, altair, plotly)
+- Linear Regression Models
+- Data Scraping and Cleaning
+
+---
+
 ## For Question 1 and 2
 You should download all the files in the 'NBASalaryPredictrorQ1Q2', and you should make sure you have installed altair and pandas libraries.
 Next, you should put all the files under one file folder, and then you can run 'main.py' to get the picture you want.
